@@ -1,0 +1,310 @@
+{
+  "photos": [
+    {
+      "file_name": "1 Av. de la Madone.jpg",
+      "title": "Modern Architecture in Monaco",
+      "description": "This building showcases sleek and modern architectural design, blending glass and steel elements seamlessly. Located in the heart of Monaco, it stands as a testament to contemporary urban development. The structure is surrounded by picturesque cityscapes, making it a striking landmark for visitors.",
+      "date_time": "2024-10-01T18:30:00",
+      "gps_coordinates": "43.7396, 7.4276",
+      "path": "photos/1 Av. de la Madone.jpg",
+      "image_type": "big"
+    },
+    {
+      "file_name": "44 Vico Manno.jpg",
+      "title": "Charming Street in Cagliari",
+      "description": "This historic street is nestled in the vibrant city of Cagliari, offering a glimpse into the local way of life. With narrow paths and traditional architecture, it exudes an old-world charm. It's a perfect spot for exploring the cultural essence of the region while enjoying the Mediterranean ambiance.",
+      "date_time": "2024-10-02T12:15:00",
+      "gps_coordinates": "39.2167, 9.1167",
+      "path": "photos/44 Vico Manno.jpg",
+      "image_type": "tall"
+    },
+    {
+      "file_name": "54 Via Giuseppe Manno.jpg",
+      "title": "Historic Building in Cagliari",
+      "description": "Located in the heart of Cagliari, this building is a remarkable example of the city's architectural heritage. Its timeless façade tells stories of the region's rich history and cultural evolution. Visitors can admire its beauty while exploring the surrounding historic district.",
+      "date_time": "2024-10-03T10:00:00",
+      "gps_coordinates": "39.2167, 9.1167",
+      "path": "photos/54 Via Giuseppe Manno.jpg",
+      "image_type": "big"
+    },
+    {
+      "file_name": "324 Stare Grunty.jpg",
+      "title": "Modern District in Bratislava",
+      "description": "This area in Bratislava showcases modern architecture with innovative designs and urban functionality. It's a vibrant part of the city where contemporary living meets progressive development. Visitors can enjoy the dynamic atmosphere and the blend of business and leisure spaces.",
+      "date_time": "2024-10-04T14:45:00",
+      "gps_coordinates": "48.1486, 17.1077",
+      "path": "photos/324 Stare Grunty.jpg",
+      "image_type": "wide"
+    },
+    {
+      "file_name": "Bastione_di_Saint_Remy.jpg",
+      "title": "Bastione di Saint Remy in Cagliari",
+      "description": "One of Cagliari's most iconic landmarks, this historic bastion offers panoramic views of the city and the sea. Built in the late 19th century, it represents a mix of military architecture and urban design. Visitors can enjoy walking through its arches and taking in its cultural significance.",
+      "date_time": "2024-10-05T09:30:00",
+      "gps_coordinates": "39.2167, 9.1167",
+      "path": "photos/Bastione di Saint Remy.jpg",
+      "image_type": "wide"
+    },
+    {
+      "file_name": "Baxova_veza.jpg",
+      "title": "Historic Baxova Tower in Bratislava",
+      "description": "This tower stands as a historical emblem in Bratislava, representing the city's medieval past. Its stone structure has withstood the test of time, offering insights into architectural practices of the era. Visitors can immerse themselves in the historical atmosphere of this remarkable monument.",
+      "date_time": "2024-10-06T11:00:00",
+      "gps_coordinates": "48.1486, 17.1077",
+      "path": "photos/Baxova veza.jpg",
+      "image_type": "wide"
+    },
+    {
+      "file_name": "Bratislava_castle.jpg",
+      "title": "Bratislava Castle",
+      "description": "Perched on a hill overlooking the Danube River, Bratislava Castle is a must-visit landmark. Its whitewashed walls and red roof create a stunning visual contrast against the cityscape. Inside, the castle houses a museum that chronicles the region's rich history and cultural heritage.",
+      "date_time": "2024-10-07T16:30:00",
+      "gps_coordinates": "48.1486, 17.1077",
+      "path": "photos/Bratislava castle.jpg",
+      "image_type": "big"
+    },
+    {
+      "file_name": "Bratislava_hrad_vyhlad.jpg",
+      "title": "Scenic View from Bratislava Castle",
+      "description": "This vantage point offers breathtaking views of Bratislava's cityscape and the surrounding countryside. The serene ambiance makes it an ideal spot for photography or simply soaking in the scenery. It's a great way to experience the beauty of the Slovak capital from above.",
+      "date_time": "2024-10-08T13:00:00",
+      "gps_coordinates": "48.1486, 17.1077",
+      "path": "photos/Bratislava hrad vyhlad.jpg",
+      "image_type": "wide"
+    },
+    {
+      "file_name": "Casino_de_Monte-Carlo.jpg",
+      "title": "Casino de Monte-Carlo in Monaco",
+      "description": "A world-famous symbol of luxury and elegance, this casino is a hub for high-stakes gambling and opulent entertainment. Its Belle Époque architecture and lavish interiors are a feast for the eyes. Visitors can experience a touch of Monaco's glamorous lifestyle here.",
+      "date_time": "2024-10-09T15:45:00",
+      "gps_coordinates": "43.7396, 7.4276",
+      "path": "photos/Casino de Monte-Carlo.jpg",
+      "image_type": "tall"
+    },
+    {
+      "file_name": "Center_of_culture_and_leisure.jpg",
+      "title": "Cultural Center in Bydgoszcz",
+      "description": "This center is a hub for art, music, and community activities in Bydgoszcz. It features modern architecture complemented by green spaces and scenic surroundings. Visitors can enjoy a variety of events and exhibitions throughout the year.",
+      "date_time": "2024-10-10T17:00:00",
+      "gps_coordinates": "53.1235, 18.0084",
+      "path": "photos/Center of culture and leisure.jpg",
+      "image_type": "wide"
+    },
+    {
+      "file_name": "Church_of_the_Assumption_of_the_Virgin_Mary.jpg",
+      "title": "Bydgoszcz: Church of the Assumption",
+      "description": "This stunning church in Bydgoszcz is a masterpiece of architecture and devotion. Its intricate details and serene atmosphere make it a must-visit landmark. A perfect blend of historical significance and spiritual charm.",
+      "date_time": "2024-10-11T09:00:00",
+      "gps_coordinates": "53.1235, 18.0084",
+      "path": "photos/Church of the Assumption of the Virgin Mary.jpg",
+      "image_type": "big"
+    },
+    {
+      "file_name": "Focus_Hotel_Premium_Pod_Ortem.jpg",
+      "title": "Focus Hotel Premium in Bydgoszcz",
+      "description": "A luxurious hotel in the heart of Bydgoszcz, offering a blend of elegance and modern comfort. Its central location makes it ideal for both leisure and business travelers. Guests can enjoy premium amenities and outstanding service.",
+      "date_time": "2024-10-12T10:30:00",
+      "gps_coordinates": "53.1235, 18.0084",
+      "path": "photos/Focus Hotel Premium Pod Orlem.jpg",
+      "image_type": "wide"
+    },
+    {
+      "file_name": "Funambule_SRPL.jpg",
+      "title": "Funambule in Paris",
+      "description": "A charming spot in Paris, Funambule offers a unique atmosphere that reflects the city’s vibrant cultural life. Perfect for enjoying a peaceful moment while exploring the bustling streets. A hidden gem for those who appreciate local character.",
+      "date_time": "2024-10-13T11:15:00",
+      "gps_coordinates": "48.8566, 2.3522",
+      "path": "photos/Funambule SRPL.jpg",
+      "image_type": "wide"
+    },
+    {
+      "file_name": "Galeria_De_La_Reine.jpg",
+      "title": "Galeria de la Reine, Paris",
+      "description": "An exquisite art gallery showcasing Paris’s rich artistic heritage. Visitors can immerse themselves in a world of creativity and inspiration. Its elegant interiors provide the perfect setting for appreciating fine art.",
+      "date_time": "2024-10-14T14:00:00",
+      "gps_coordinates": "48.8566, 2.3522",
+      "path": "photos/Galeria De La Reine.jpg",
+      "image_type": "tall"
+    },
+    {
+      "file_name": "Grote_Markt.jpg",
+      "title": "Grote Markt in Brussels",
+      "description": "The iconic main square of Brussels, renowned for its stunning architecture and lively atmosphere. It’s a UNESCO World Heritage Site and a hub of cultural events. A must-see destination for anyone visiting Belgium’s capital.",
+      "date_time": "2024-10-15T19:30:00",
+      "gps_coordinates": "50.8467, 4.3499",
+      "path": "photos/Grote Markt.jpg",
+      "image_type": "tall"
+    },
+    {
+      "file_name": "Jaz Ulgowy.jpg",
+      "title": "Jaz Ulgowy, Bydgoszcz",
+      "description": "A historic structure in Bydgoszcz, this site reflects the city’s engineering and industrial heritage. Its intricate design and functionality are a testament to human ingenuity. A fascinating spot for history and architecture enthusiasts.",
+      "date_time": "2024-10-16T16:45:00",
+      "gps_coordinates": "53.1235, 18.0084",
+      "path": "photos/Jaz Ulgowy.jpg",
+      "image_type": "wide"
+    },
+    {
+      "file_name": "Kutec.jpg",
+      "title": "Kutec Street, Kopichintsy",
+      "description": "A picturesque street in Kopichintsy, known for its tranquil ambiance and rustic charm. Perfect for a leisurely walk and exploring the local heritage. A glimpse into the everyday life of this serene village.",
+      "date_time": "2024-10-17T13:30:00",
+      "gps_coordinates": "49.2227, 25.9500",
+      "path": "photos/Kutec.jpg",
+      "image_type": "big"
+    },
+    {
+      "file_name": "Kutetske_field.jpg",
+      "title": "Kutetske Field, Kopichintsy",
+      "description": "A vast field in Kopichintsy, offering breathtaking views of the surrounding countryside. Ideal for nature enthusiasts and those seeking a moment of peace. A perfect spot to witness the beauty of rural landscapes.",
+      "date_time": "2024-10-18T17:45:00",
+      "gps_coordinates": "49.2227, 25.9500",
+      "path": "photos/Kutetske field.jpg",
+      "image_type": "tall"
+    },
+    {
+      "file_name": "Le_Quai_Kennedy.jpg",
+      "title": "Le Quai Kennedy, Monaco",
+      "description": "A stunning promenade in Monaco, offering picturesque views of the Mediterranean Sea. A popular spot for a relaxing stroll and enjoying the luxurious atmosphere of the city. A perfect blend of elegance and natural beauty.",
+      "date_time": "2024-10-19T20:15:00",
+      "gps_coordinates": "43.7396, 7.4276",
+      "path": "photos/Le Quai Kennedy.jpg",
+      "image_type": "big"
+    },
+    {
+      "file_name": "Letisko_Bratislava.jpg",
+      "title": "Bratislava Airport",
+      "description": "The main airport in Bratislava, offering modern facilities and excellent connectivity. A gateway to Slovakia, it serves as a convenient travel hub for tourists and business travelers alike. Known for its efficient services.",
+      "date_time": "2024-10-20T12:00:00",
+      "gps_coordinates": "48.1486, 17.1077",
+      "path": "photos/Letisko Bratislava.jpg",
+      "image_type": "wide"
+    },
+    {
+      "file_name": "Louis_Vuitton_Paris.jpg",
+      "title": "Louis Vuitton Store, Paris",
+      "description": "An iconic store in Paris, showcasing the luxury and elegance of the Louis Vuitton brand. A must-visit for fashion enthusiasts and admirers of high-end craftsmanship. Located in the heart of the fashion capital.",
+      "date_time": "2024-10-21T15:30:00",
+      "gps_coordinates": "48.8566, 2.3522",
+      "path": "photos/Louis Vuitton Paris.jpg",
+      "image_type": "big"
+    },
+    {
+      "file_name": "Lyceum_School_No_1.jpg",
+      "title": "Lyceum School No. 1, Bydgoszcz",
+      "description": "One of the prominent schools in Bydgoszcz, known for its historical significance and commitment to education. Its beautiful architecture is a testament to the city's rich academic traditions. A landmark for locals and visitors alike.",
+      "date_time": "2024-10-22T11:00:00",
+      "gps_coordinates": "53.1235, 18.0084",
+      "path": "photos/Lyceum School No. 1.jpg",
+      "image_type": "tall"
+    },
+    {
+      "file_name": "McDonalds_Quartu_SantElena_Poetto.jpg",
+      "title": "McDonald's, Quartu Sant'Elena Poetto",
+      "description": "A modern McDonald's restaurant located in Quartu Sant'Elena, near the scenic Poetto Beach in Cagliari. Known for its convenient location and comfortable dining atmosphere. A great spot for a quick meal with a view.",
+      "date_time": "2024-10-23T18:00:00",
+      "gps_coordinates": "39.2167, 9.1167",
+      "path": "photos/McDonalds Quartu SantElena Poetto.jpg",
+      "image_type": "wide"
+    },
+    {
+      "file_name": "Mlyny_Rothera.jpg",
+      "title": "Młyny Rothera, Bydgoszcz",
+      "description": "Historical Rother’s Mills in Bydgoszcz, an iconic landmark showcasing the city’s industrial heritage. A beautifully preserved site that now hosts cultural events and exhibitions. Perfect for history and architecture enthusiasts.",
+      "date_time": "2024-10-24T13:15:00",
+      "gps_coordinates": "53.1235, 18.0084",
+      "path": "photos/Mlyny Rothera.jpg",
+      "image_type": "wide"
+    },
+    {
+      "file_name": "Nichlava_river.jpg",
+      "title": "Nichlava River, Kopichintsy",
+      "description": "The peaceful Nichlava River flows through the picturesque village of Kopichintsy. Its serene waters are surrounded by lush greenery, making it a perfect spot for relaxation and nature walks. A hidden gem in the region.",
+      "date_time": "2024-10-25T08:45:00",
+      "gps_coordinates": "49.2227, 25.9500",
+      "path": "photos/Nichlava river.jpg",
+      "image_type": "wide"
+    },
+    {
+      "file_name": "Place_du_Carrousel.jpg",
+      "title": "Place du Carrousel, Paris",
+      "description": "A historic square in Paris, located near the Louvre Museum. Famous for its elegant architecture and central location, it offers stunning views and a rich cultural experience. A must-visit for tourists exploring the city.",
+      "date_time": "2024-10-26T15:00:00",
+      "gps_coordinates": "48.8566, 2.3522",
+      "path": "photos/Place du Carrousel.jpg",
+      "image_type": "big"
+    },
+    {
+      "file_name": "Poetto_Caligiari.jpg",
+      "title": "Poetto Beach, Cagliari",
+      "description": "A vibrant and scenic beach in Cagliari, popular for its golden sands and crystal-clear waters. Ideal for sunbathing, swimming, and enjoying the Mediterranean atmosphere. A favorite destination for both locals and tourists.",
+      "date_time": "2024-10-27T11:45:00",
+      "gps_coordinates": "39.2167, 9.1167",
+      "path": "photos/Poetto Caliagri.jpg",
+      "image_type": "wide"
+    },
+    {
+      "file_name": "Pont_de_Bir_Hakeim.jpg",
+      "title": "Pont de Bir-Hakeim, Paris",
+      "description": "An iconic bridge in Paris, offering spectacular views of the Seine River and the Eiffel Tower. Famous for its elegant design and as a popular location for photography and films. A true Parisian landmark.",
+      "date_time": "2024-10-28T09:30:00",
+      "gps_coordinates": "48.8566, 2.3522",
+      "path": "photos/Pont de Bir Hakeim.jpg",
+      "image_type": "tall"
+    },
+    {
+      "file_name": "Pyramide_du_Louvre.jpg",
+      "title": "Louvre Pyramid, Paris",
+      "description": "The iconic glass pyramid at the Louvre Museum in Paris, a masterpiece of modern architecture. Serves as the main entrance to the museum, symbolizing the blend of historical and contemporary art. A global cultural icon.",
+      "date_time": "2024-10-29T14:00:00",
+      "gps_coordinates": "48.8566, 2.3522",
+      "path": "photos/Pyramide du Louvre.jpg",
+      "image_type": "big"
+    },
+    {
+      "file_name": "Restauracja_Chinkalnia_ul_Dluga.jpg",
+      "title": "„Chinkalnia” Restaurant, Długa Street",
+      "description": "A cozy Georgian restaurant located on Długa Street in Bydgoszcz. Known for its authentic khinkali and other traditional dishes, it offers a warm and inviting atmosphere. A delightful spot for lovers of Georgian cuisine.",
+      "date_time": "2024-10-30T13:30:00",
+      "gps_coordinates": "53.1235, 18.0084",
+      "path": "photos/Restauracja Chinkalnia ul. Dluga.jpg",
+      "image_type": "wide"
+    },
+    {
+      "file_name": "sd_Mladost.jpg",
+      "title": "SD Mladost Dormitory, Bratislava",
+      "description": "A student dormitory in Bratislava, providing accommodation for university students. The building features practical design and is located near major campus facilities, making it a central hub for student life.",
+      "date_time": "2024-10-31T17:00:00",
+      "gps_coordinates": "48.1486, 17.1077",
+      "path": "photos/sd Mladost.jpg",
+      "image_type": "tall"
+    },
+    {
+      "file_name": "St_Mykhailo_Hrushevskyi.jpg",
+      "title": "St. Mykhailo Hrushevskyi Street, Kopichintsy",
+      "description": "A picturesque street in Kopichintsy named after the prominent Ukrainian statesman, Mykhailo Hrushevskyi. The street features charming local architecture and a tranquil village atmosphere. A place of historical and cultural significance.",
+      "date_time": "2024-11-02T15:45:00",
+      "gps_coordinates": "49.2227, 25.9500",
+      "path": "photos/St. Mykhailo Hrushevskyi.jpg",
+      "image_type": "tall"
+    },
+    {
+      "file_name": "THeMA.jpg",
+      "title": "THeMA Restaurant, Bratislava",
+      "description": "A stylish restaurant in Bratislava known for its modern European cuisine and sophisticated ambiance. It’s a popular choice for fine dining and special occasions, offering a memorable culinary experience.",
+      "date_time": "2024-11-03T12:00:00",
+      "gps_coordinates": "48.1486, 17.1077",
+      "path": "photos/THeMA.jpg",
+      "image_type": "big"
+    },
+    {
+      "file_name": "railwayStationKopychyntsy.jpg",
+      "title": "Kopychyntsy Railway Station",
+      "description": "A historical railway station in Kopychyntsy, serving as a vital link for travelers in the region. The station's traditional design reflects the charm of small-town Ukraine, connecting past and present.",
+      "date_time": "2023-08-06T06:00:00",
+      "gps_coordinates": "49.2227, 25.9500",
+      "path": "photos/railwayStationKopychyntsy.jpg",
+      "image_type": "tall"
+    }
+  ]
+}
