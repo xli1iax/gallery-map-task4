@@ -17,16 +17,18 @@ fetch('photos.json')
             output += `
                 <a class="photo ${item.image_type} fancybox item col-sm-6 col-md-4 mb-3" 
                     data-fancybox="gallery1" href="${item.path}" 
-                    data-caption="${item.title} - ${item.description}" data-index="${index}">
+                    data-caption="${item.title} - ${item.description}" data-index="${index}" data-coordinates="${item.gps_coordinates}">
                     <img src="${item.path}" alt="${item.title}">
-                    <span class="toggle-description">&#8595;</span>
-                    <p class="description">${item.description}</p>
                 </a>
             `;
         });
 
         document.querySelector(".gallery").innerHTML = output;
-
+        $.fancybox.defaults.btnTpl.mapButton = `
+    <button data-fancybox-map class="fancybox-button fancybox-button--map" title="Show Map">
+        <img src="icons/marker.png" alt="Map Icon" style="width: 24px; height: 24px;">
+    </button>
+`;
         // Ініціалізація Fancybox для нових елементів
         $("[data-fancybox]").fancybox({
             buttons: [
@@ -36,8 +38,35 @@ fetch('photos.json')
                 "download",
                 "thumbs",
                 "slideShow", // Додаємо кнопку слайд-шоу
-                "close"
+                "close",
+                "mapButton"
             ],
+            afterShow: function (instance, current) {
+                // Обробник для кнопки карти
+                $(".fancybox-button--map").off("click").on("click", function () {
+                    const coordinates = current.opts.$orig.data("coordinates");
+                    if (coordinates) {
+                        const [lat, lng] = coordinates.split(",");
+
+                        // Відкриття Fancybox з картою
+                        $.fancybox.open({
+                            src: `<div id="map" style="width: 50%; height: 50%;"></div>`,
+                            type: "html",
+                            opts: {
+                                afterShow: function () {
+                                    const map = L.map('map').setView([lat, lng], 14);
+                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                                    }).addTo(map);
+                                    L.marker([lat, lng]).addTo(map).bindPopup(current.opts.$orig.find("img").attr("alt")).openPopup();
+                                }
+                            }
+                        });
+                    } else {
+                        alert("No coordinates available for this image.");
+                    }
+                });
+            },
             loop: true,
             slideShow: {
                 autoStart: false, // Чи починати слайд-шоу автоматично
