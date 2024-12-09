@@ -8,16 +8,15 @@ fetch('photos.json')
     .then(data => {
         const photos = data.photos;
         let output = "";
-        const captions = []; // Масив для збереження описів
-
+        const captions = [];
+        const datas = [];
         photos.forEach((item, index) => {
-            // Додаємо опис у масив
             captions[index] = item.description;
-
+            datas[index] = item.date_time;
             output += `
                 <a class="photo ${item.image_type} fancybox item col-sm-6 col-md-4 mb-3" 
                     data-fancybox="gallery1" href="${item.path}" 
-                    data-caption="${item.title} - ${item.description}" data-index="${index}" data-coordinates="${item.gps_coordinates}">
+                    data-caption="${item.title}" data-index="${index}" data-coordinates="${item.gps_coordinates}">
                     <img src="${item.path}" alt="${item.title}">
                 </a>
             `;
@@ -29,7 +28,6 @@ fetch('photos.json')
         <img src="icons/marker.png" alt="Map Icon" style="width: 24px; height: 24px;">
     </button>
 `;
-        // Ініціалізація Fancybox для нових елементів
         $("[data-fancybox]").fancybox({
             buttons: [
                 "zoom",
@@ -37,18 +35,16 @@ fetch('photos.json')
                 "share",
                 "download",
                 "thumbs",
-                "slideShow", // Додаємо кнопку слайд-шоу
+                "slideShow",
                 "close",
                 "mapButton"
             ],
             afterShow: function (instance, current) {
-                // Обробник для кнопки карти
                 $(".fancybox-button--map").off("click").on("click", function () {
                     const coordinates = current.opts.$orig.data("coordinates");
                     if (coordinates) {
                         const [lat, lng] = coordinates.split(",");
 
-                        // Відкриття Fancybox з картою
                         $.fancybox.open({
                             src: `<div id="map" style="width: 50%; height: 50%;"></div>`,
                             type: "html",
@@ -69,17 +65,19 @@ fetch('photos.json')
             },
             loop: true,
             slideShow: {
-                autoStart: false, // Чи починати слайд-шоу автоматично
-                speed: 3000 // Інтервал у мілісекундах між переходами слайдів
+                autoStart: false,
+                speed: 3000
             },
             transitionDuration: 600,
             caption: function(instance, item) {
-                const index = item.index; // Отримуємо індекс поточної картинки
+                const index = item.index;
+                const title = item.opts.caption;
+
                 return `
                     <div class="caption-content">
                         <div class="caption-header">
-                            <p class="title">${item.opts.caption.split(" - ")[0]}</p>
-                            <span class="toggle-description">&#709;</span> <!-- Стрілочка для відкриття -->
+                            <h3 class="title">${title}|${datas[index]}</h3>
+                            <p class="toggle-description">&#709;</p>
                         </div>
                         <p class="description">${captions[index]}</p>
                     </div>
@@ -87,24 +85,20 @@ fetch('photos.json')
             }
         });
 
-        // Подія після завантаження Fancybox
         $(document).on("click", ".toggle-description", function() {
             const description = $(this).closest(".caption-content").find(".description");
             const isVisible = description.is(":visible");
 
-            // Перемикаємо видимість опису
             description.toggle();
 
-            // Змінюємо стрілочку
             $(this).html(isVisible ? "&#709;" : "&#708;");
         });
 
         const searchInput = document.getElementById("search");
 
         searchInput.addEventListener("input", function() {
-            const searchQuery = searchInput.value.toLowerCase(); // Перетворюємо введений текст в нижній регістр
+            const searchQuery = searchInput.value.toLowerCase();
 
-            // Перебираємо всі елементи галереї та перевіряємо, чи містить назва картки пошукове слово
             const photosElements = document.querySelectorAll('.photo');
 
             photosElements.forEach(item => {

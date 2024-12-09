@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" >
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" >
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"  >
+    <link href="styleMenu.css" rel="stylesheet">
+    <link href="styleMap.css" rel="stylesheet">
+    <title>Map</title>
+</head>
+<body>
+
+<nav class="sidebar close">
+    <header>
+        <div class="image-text">
+      <span class="image">
+        <img src="icons/web-internet-svgrepo-com%20(1).svg" alt="web">
+      </span>
+
+            <div class="text header-text">
+                <span class="task">Task</span>
+                <span class="number-task">4</span>
+            </div>
+        </div>
+
+        <i class="bx bx-chevron-right toggle"><img src="icons/arrow-right-to-arc-svgrepo-com%20(2).svg" alt="arrow"></i>
+    </header>
+    <div class="menu-bar">
+        <div class="menu">
+            <ul class="menu-links">
+                <li class="nav-link">
+                    <a href="index.html">
+                        <img class="bx bx-gallery-alt icon" src="icons/picture-folder-svgrepo-com.svg" alt="Gallery">
+                        <span class="text nav-text">Gallery</span>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="map.html">
+
+                        <img class="bx bx-map-alt icon" src="icons/world-map-with-a-placeholder-svgrepo-com.svg" alt="Map">
+
+                        <span class="text nav-text">Map</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="bottom-content">
+            <ul>
+                <li class="">
+                    <a href="info.html">
+                        <img src="icons/info.svg" alt="i">
+                    </a>
+                </li>
+                <li class="mode">
+                    <div class="moon-sun">
+                        <img class="bx bx-moon icon moon" src="icons/moon-svgrepo-com%20(1).svg" alt="moon">
+                        <img class="bx bx-sun icon sun" src="icons/sun-svgrepo-com.svg" alt="sun">
+                    </div>
+                    <span class="mode-text text">Dark Mode</span>
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="map" id="myMap" style="height: 98vh;">
+        <button id="routeControlBtn">Build total route</button>
+        <button id="deleteRouteBtn">Delete Route</button>
+    </div>
+</div>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" >
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+<script src="scriptMenu.js"></script>
+<script src="scriptMap.js"></script>
+</body>
+</html>

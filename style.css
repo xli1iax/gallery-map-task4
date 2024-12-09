@@ -1,14 +1,3 @@
-*{
-  /*font-family*/
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root{
-    --body-color:#E4E0E1;
-
-}
 
 .container {
     margin: 5px;
@@ -70,16 +59,49 @@ img {
 .photo {
     display: block;
     overflow: hidden;
-    transition: all 0.3s ease; /* Плавне зміщення контейнера */
+    transition: all 0.3s ease;
 }
 
-/* Опис */
 .description {
-    display: none; /* Опис прихований за замовчуванням */
+    display: none;
     margin-top: 10px;
 }
 
-/* Для Fancybox — додати ефект для контейнера */
 .fancybox-slide--image {
     transition: all 0.3s ease;
 }
+
+.text-search {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin: 15px 10px;
+}
+.search-container {
+    height: 50px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.search-container .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+
+}
+.search-container {
+    background: #f7f0e8;
+    width: 250px;
+    border-radius: 10px;
+}
+.search-container input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    background: #f7f0e8;
+    border: none;
+
+    border-radius: 10px;
+}
+
+

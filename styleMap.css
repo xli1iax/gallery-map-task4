@@ -1,0 +1,33 @@
+#routeControlBtn, #deleteRouteBtn {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    z-index:10000;
+}
+#deleteRouteBtn {
+    left: 170px;
+}
+#routeControlBtn:hover, #deleteRouteBtn:hover {
+    background-color: #0056b3;
+}
+
+.sidebar header .toggle img{
+    width:35px;
+}
+
+.sidebar .image-text img {
+    width: 65px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
